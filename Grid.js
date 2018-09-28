@@ -7,13 +7,14 @@
 
 import React, {
   Component,
-  PropTypes,
 } from 'react'
 import {
   View,
   StyleSheet,
   Dimensions,
 } from 'react-native'
+
+import PropTypes from 'prop-types';
 
 const { width: deviceWidth } = Dimensions.get('window');
 const styles = StyleSheet.create({
